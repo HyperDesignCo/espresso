@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/espressoclubegyp/repositories/espresso
-    - /bin/cp -R /home/espressoclubegyp/repositories/espresso/index.php $DEPLOYPATH
+    - /bin/cp -R $DEPLOYPATH
